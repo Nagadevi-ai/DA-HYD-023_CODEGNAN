@@ -102,13 +102,23 @@ print('codegnan'.endswith('f'))
 print('codegnan'.islower()) #returns True for all lowercase
 print('COdegnan'.islower()) #returns True for all uppercase
 print('Codegnan Python'.istitle())
-'''
+
 #Space removal -->strip() (removes leading and trailing spaces)
 
 a='  codegnan  '
 print(a.strip())
 b=input("Enter the string:").strip().lower()
 print(b)
+ #zfill() filling with zzeros s per the given numeric string
+print('234'.zfill(4))
+print('234'.zfill(7))
+'''
+print('hai'.center4)
+print('234'.center(4,'#'))
+
+print('hai'.ljust(6,'#'))
+print('hai'.rjust(6,'#'))
+
 
 
 
